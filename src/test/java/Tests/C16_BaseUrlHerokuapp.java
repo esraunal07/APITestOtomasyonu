@@ -1,6 +1,6 @@
 package Tests;
 
-import BaseUrl.HerokuappBaseURl;
+import BaseUrl.HerokuAppBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -11,7 +11,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class C16_BaseUrlHerokuapp extends HerokuappBaseURl {
+public class C16_BaseUrlHerokuapp extends HerokuAppBaseUrl {
      /*
     C16_BaseUrlHerokuapp
             Class icinde 2 Test metodu olusturun ve asagidaki testleri yapin

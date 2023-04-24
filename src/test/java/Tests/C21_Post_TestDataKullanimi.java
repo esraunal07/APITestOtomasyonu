@@ -1,6 +1,7 @@
 package Tests;
 
-import BaseUrl.HerokuappBaseURl;
+import BaseUrl.HerokuAppBaseUrl;
+
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -12,7 +13,7 @@ import testData.TestDataHerokuapp;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class C21_Post_TestDataKullanimi extends HerokuappBaseURl {
+public class C21_Post_TestDataKullanimi extends HerokuAppBaseUrl {
     /*
     https://restful-booker.herokuapp.com/booking url’ine asagidaki body'ye sahip
     bir POST request gonderdigimizde donen response’un status kodunu ve id haric
